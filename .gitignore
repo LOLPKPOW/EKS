@@ -1,0 +1,14 @@
+# Ignore Terraform local working directory and lock files
+.terraform/
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+
+# Ignore executable provider binaries
+terraform/.terraform/providers/
+
+# Ignore any generated module files
+terraform/.terraform/modules/
