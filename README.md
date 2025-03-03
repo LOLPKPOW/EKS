@@ -1,0 +1,1 @@
+This repository containers Terraform, EKS, Kubernetes, Docker, CI/CD pipeline setups.
