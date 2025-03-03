@@ -12,3 +12,16 @@ terraform/.terraform/providers/
 
 # Ignore any generated module files
 terraform/.terraform/modules/
+
+# Ignore Terraform state files
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+
+# Ignore Terraform lock files
+.terraform.lock.hcl
+.terraform.tfstate.lock.info
+
+# Ignore Terraform variable files (if they contain sensitive info)
+*.tfvars
+
